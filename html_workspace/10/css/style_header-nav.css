@@ -10,6 +10,13 @@ body {
     background:#fff;
     border: 1px solid #e7e7e7;
 }
+.content {
+    background:#ffffff;
+    padding-top: 5px;
+    padding-left: 10px;
+    width: 720px;
+    float: left;
+}
 header {
     position: relative;
     height: 280px;
@@ -64,27 +71,18 @@ header h2 {
     text-shadow: 0px 2px 2px #000;
     color: #fc0;
 }
-article {
-    width: 80%;
-    margin-right: auto;
-    margin-left: auto;
-    border: 5px solid #333;
-    padding: 5px;
-}
-article section {
-    width: 30%;
-    height: 650px;
-    margin: 5px;
-    float: left;
-    padding: 5px;
-    border: 1px dotted #333;
-}
+
 section h3 {
 
     padding-left: 30px;
     
 }
-aside {
+
+.banner {
+    margin:0 10px 15px 10px;
+    padding: 0;
+}
+.sidebar {
     float: right;
     width: 200px;
     height: 550px;
@@ -92,4 +90,29 @@ aside {
     padding-top: 20px;
     padding-left: 10px;
     padding-right: 10px;
+
 }
+.sidebar img {
+    margin-bottom: 5px;
+    border:1px solid #ccc;
+    text-align: center;
+    opacity: 0.5;
+}
+
+.sidebar img:hover {
+    border:1px solid #000;
+    opacity:1.0;
+}
+
+footer {
+    padding: 10px 0;
+    background: #030;
+    color: #fff;
+    text-align: center;
+    clear: both;
+
+}
+header, section, aside, article {
+    display: block;
+}
+
